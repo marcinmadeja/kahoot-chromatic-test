@@ -1,0 +1,72 @@
+.button-raised {
+  width: initial;
+  margin: 0px;
+  border: 0px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: bottom;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px -4px inset;
+  background: rgb(19, 104, 206);
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  min-width: 42px;
+  min-height: 42px;
+  padding: 0px 16px 4px;
+  position: relative;
+  font-family: Montserrat, "Noto Sans Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.button-raised:hover {
+  min-height: 40px;
+  margin-top: 2px;
+  padding-bottom: 2px;
+  background-color: rgb(18, 96, 190);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px -2px inset;
+}
+
+
+.button-raised:active {
+  min-height: 38px;
+    margin-top: 4px;
+    padding-bottom: 0px;
+    box-shadow: none;
+    background-color: rgb(16, 87, 172);
+}
+
+.button-raised:focus {
+  min-height: 40px;
+  margin-top: 2px;
+  padding-bottom: 2px;
+  background-color: rgb(18, 96, 190);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px -2px inset;
+}
+
+.button-raised.color-green {
+  background: rgb(38, 137, 12);
+  color: rgb(255, 255, 255);
+}
+
+.button-raised.color-green:hover {
+  background-color: rgb(35, 126, 11);
+}
+
+.button-raised.color-green:active {
+  background-color: rgb(32, 115, 10);
+}
+
+.button-raised.color-grey {
+  background: rgb(242, 242, 242);
+  color: rgb(0, 0, 0);
+}
+
+.button-raised.color-grey:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+.button-raised.color-grey:active {
+  background-color: rgb(202, 202, 202);
+}
